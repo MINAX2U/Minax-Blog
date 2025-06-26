@@ -1,20 +1,20 @@
 export interface BuroguruConfig {
   // Site Settings
   site: {
-    name: "MINAX"
-    description: "My_blog"
-    url: "https://minax-blog.vercel.app/"
+    name: string
+    description: string
+    url: string
     favicon?: string
   }
   
   // Author Settings
   author: {
-    name: "MINAX"
-    bio: "A student"
+    name: string
+    bio: string
     avatar: string
-    email?: "ethanlai588@proton.me"
+    email?: string
     social: {
-      github?: "<https://github.com/MINAX2U>"
+      github?: string
       twitter?: string
       linkedin?: string
       notion?: string
@@ -29,9 +29,9 @@ export interface BuroguruConfig {
     // Custom font from Google Fonts
     customFont?: string
     // Primary color scheme
-    primaryColor: '240 100% 75%'
+    primaryColor: string
     // Secondary color
-    secondaryColor?: '245 93% 67%'
+    secondaryColor?: string
     // Logo/Brand image
     logo?: string
   }
@@ -39,11 +39,11 @@ export interface BuroguruConfig {
   // Blog Settings
   blog: {
     // Posts per page
-    postsPerPage: 10
+    postsPerPage: number
     // Show excerpt on post list
-    showExcerpt: true
+    showExcerpt: boolean
     // Show tags
-    showTags: true
+    showTags: boolean
     // Default thumbnail for posts without image
     defaultThumbnail?: string
   }
@@ -54,35 +54,35 @@ export interface BuroguruConfig {
   homepage: {
     // Hero section
     hero: {
-      title: "Minax"
-      description: "Blog"
+      title: string
+      description: string
       primaryButton: {
-        text: "開始閱讀",
-        href: "/posts/get-started"
+        text: string
+        href: string
       }
       secondaryButton: {
-        text: "了解更多",
-        href: "/about"
+        text: string
+        href: string
       }
     }
     // Recent posts section
     recentPosts: {
-      title: "最新文章"
-      viewAllText: "查看所有文章"
-      count: 3
+      title: string
+      viewAllText: string
+      count: number
     }
   }
   
   // Footer
   footer: {
     // Custom footer text
-    text?: "© 2025 MINAX"
+    text?: string
     // Show "Built with Buroguru" link
-    showBuiltWith: true
+    showBuiltWith: boolean
     // Additional footer links
     links?: Array<{
-      name: "隱私政策"
-      href: "/privacy"
+      name: string
+      href: string
     }>
   }
 }
@@ -146,27 +146,27 @@ export const defaultConfig: BuroguruConfig = {
 // User's custom configuration
 const config: BuroguruConfig = {
   site: {
-    name: "Buroguru",
-    description: "A modern blog framework that transforms your Notion workspace into a beautiful blog",
-    url: "https://buroguru.zudo.cc"
+    name: "Minax",
+    description: "Blog",
+    url: "https://google.com"
   },
   
   author: {
-    name: "Owen Wu",
-    bio: "Buroguru is a modern blog framework that seamlessly transforms your Notion workspace into a beautiful, fast-loading blog. Write in Notion, publish everywhere.",
+    name: "MINAX",
+    bio: "A Student's Blog",
     avatar: "/images/Buroguru.png",
-    email: "wusandwitch@gmail.com",
+    email: "ethanlai588@proton.me",
     social: {
-      github: "https://github.com/WuSandWitch/Buroguru",
-      notion: "https://buroguru.notion.site",
-      website: "https://WuSandWitch.zudo.cc"
+      github: "https://github.com/MINAX2U",
+      notion: "https://google.com",
+      website: "https://google.com"
     }
   },
   
   appearance: {
     fontFamily: 'serif',
-    primaryColor: '222.2 84% 4.9%',
-    secondaryColor: '210 40% 96%',
+    primaryColor: '240 100% 75%',
+    secondaryColor: '245 93% 67%',
     logo: '/images/Buroguru.png'
   },
   
@@ -178,15 +178,15 @@ const config: BuroguruConfig = {
   
   homepage: {
     hero: {
-      title: "Buroguru",
-      description: "Documenting blog using Notion as CMS.",
+      title: "Minax",
+      description: "My Blog",
       primaryButton: {
-        text: "Get Started",
-        href: "/posts/get-started-en"
+        text: "Start Reading",
+        href: "/posts/get-started"
       },
       secondaryButton: {
-        text: "What is Buroguru?",
-        href: "/posts/intro"
+        text: "Know More",
+        href: "/about"
       }
     },
     recentPosts: {
@@ -197,10 +197,10 @@ const config: BuroguruConfig = {
   },
   
   footer: {
-    text: "WuSandWitch",
+    text: "Minax",
     showBuiltWith: true,
     links: [
-      { name: "WuSandWitch", href: "https://WuSandWitch.zudo.cc" }
+      { name: "Minax", href: "https://google.com" }
     ]
   }
 }
