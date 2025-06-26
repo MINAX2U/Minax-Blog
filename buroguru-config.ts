@@ -1,20 +1,20 @@
 export interface BuroguruConfig {
   // Site Settings
   site: {
-    name: string
-    description: string
-    url: string
+    name: "MINAX"
+    description: "My_blog"
+    url: "https://minax-blog.vercel.app/"
     favicon?: string
   }
   
   // Author Settings
   author: {
-    name: string
-    bio: string
+    name: "MINAX"
+    bio: "A student"
     avatar: string
-    email?: string
+    email?: "ethanlai588@proton.me"
     social: {
-      github?: string
+      github?: "<https://github.com/MINAX2U>"
       twitter?: string
       linkedin?: string
       notion?: string
@@ -29,9 +29,9 @@ export interface BuroguruConfig {
     // Custom font from Google Fonts
     customFont?: string
     // Primary color scheme
-    primaryColor: string
+    primaryColor: '240 100% 75%'
     // Secondary color
-    secondaryColor?: string
+    secondaryColor?: '245 93% 67%'
     // Logo/Brand image
     logo?: string
   }
@@ -39,11 +39,11 @@ export interface BuroguruConfig {
   // Blog Settings
   blog: {
     // Posts per page
-    postsPerPage: number
+    postsPerPage: 10
     // Show excerpt on post list
-    showExcerpt: boolean
+    showExcerpt: true
     // Show tags
-    showTags: boolean
+    showTags: true
     // Default thumbnail for posts without image
     defaultThumbnail?: string
   }
@@ -54,35 +54,35 @@ export interface BuroguruConfig {
   homepage: {
     // Hero section
     hero: {
-      title: string
-      description: string
+      title: "Minax"
+      description: "Blog"
       primaryButton: {
-        text: string
-        href: string
+        text: "開始閱讀",
+        href: "/posts/get-started"
       }
       secondaryButton: {
-        text: string
-        href: string
+        text: "了解更多",
+        href: "/about"
       }
     }
     // Recent posts section
     recentPosts: {
-      title: string
-      viewAllText: string
-      count: number
+      title: "最新文章"
+      viewAllText: "查看所有文章"
+      count: 3
     }
   }
   
   // Footer
   footer: {
     // Custom footer text
-    text?: string
+    text?: "© 2025 MINAX"
     // Show "Built with Buroguru" link
-    showBuiltWith: boolean
+    showBuiltWith: true
     // Additional footer links
     links?: Array<{
-      name: string
-      href: string
+      name: "隱私政策"
+      href: "/privacy"
     }>
   }
 }
