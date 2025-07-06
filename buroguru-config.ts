@@ -93,7 +93,8 @@ export const defaultConfig: BuroguruConfig = {
   site: {
     name: "Buroguru",
     description: "A modern blog framework that transforms your Notion workspace into a beautiful blog",
-    url: "https://buroguru.zudo.cc"
+    url: "https://buroguru.zudo.cc",
+    favicon: "/app/favicon.ico"
   },
   
   author: {
@@ -109,7 +110,7 @@ export const defaultConfig: BuroguruConfig = {
   appearance: {
     fontFamily: 'serif',
     primaryColor: '222.2 84% 4.9%', // Default shadcn primary
-    logo: "/images/logo.png"
+    logo: "/images/cone-icon.png"
   },
   
   blog: {
@@ -168,13 +169,14 @@ const config: BuroguruConfig = {
     fontFamily: 'serif',
     primaryColor: '240 100% 75%',
     secondaryColor: '245 93% 67%',
-    logo: '/images/Buroguru.png'
+    logo: '/images/cone.png'
   },
   
   blog: {
     postsPerPage: 10,
     showExcerpt: true,
-    showTags: true
+    showTags: true,
+    defaultThumbnail: "/public/images/default.jpeg"
   },
   
   homepage: {
