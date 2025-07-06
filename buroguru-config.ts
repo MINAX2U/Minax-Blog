@@ -19,6 +19,7 @@ export interface BuroguruConfig {
       linkedin?: string
       notion?: string
       website?: string
+      linktree?: string
     }
   }
   
@@ -148,18 +149,18 @@ const config: BuroguruConfig = {
   site: {
     name: "Minax",
     description: "Blog",
-    url: "https://google.com"
+    url: "https://minax2u.github.io/"
   },
   
   author: {
     name: "MINAX",
-    bio: "A Student's Blog",
+    bio: "A weirdo who uses WHITE THEME ",
     avatar: "/images/Buroguru.png",
     email: "ethanlai588@proton.me",
     social: {
       github: "https://github.com/MINAX2U",
-      notion: "https://google.com",
-      website: "https://google.com"
+      linktree: "https://linktr.ee/MINAX0124",
+      website: "https://minax2u.github.io/"
     }
   },
   
@@ -182,11 +183,11 @@ const config: BuroguruConfig = {
       description: "My Blog",
       primaryButton: {
         text: "Start Reading",
-        href: "/posts/get-started"
+        href: "/posts"
       },
       secondaryButton: {
         text: "Know More",
-        href: "/about"
+        href: "/posts/intro"
       }
     },
     recentPosts: {
@@ -200,7 +201,7 @@ const config: BuroguruConfig = {
     text: "Minax",
     showBuiltWith: true,
     links: [
-      { name: "Minax", href: "https://google.com" }
+      { name: "Minax", href: "https://minax2u.github.io/" }
     ]
   }
 }
