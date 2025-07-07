@@ -94,7 +94,7 @@ export const defaultConfig: BuroguruConfig = {
     name: "Buroguru",
     description: "A modern blog framework that transforms your Notion workspace into a beautiful blog",
     url: "https://buroguru.zudo.cc",
-    favicon: "/app/favicon.ico"
+    favicon: "/app/cone.ico"
   },
   
   author: {
@@ -156,7 +156,7 @@ const config: BuroguruConfig = {
   author: {
     name: "MINAX",
     bio: "A weirdo who uses WHITE THEME ",
-    avatar: "/images/Buroguru.png",
+    avatar: "/images/cone.png",
     email: "ethanlai588@proton.me",
     social: {
       github: "https://github.com/MINAX2U",
