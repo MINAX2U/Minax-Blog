@@ -1,7 +1,7 @@
 ---
 title: "Who am I?"
 description: "The introduction post of my blog."
-thumbnail: "/images/posts/ef9497e8-8d0e-4838-9a48-139f0d530022.jpeg"
+thumbnail: "/images/posts/7c22041b-d6cb-43d1-8eb7-62662347ffc0.jpeg"
 date: "2025-06-19"
 tags: ["Intro"]
 ---
@@ -18,7 +18,7 @@ Welcome to my corner of the internet. I created this space to share my thoughts,
 I'm interested in filed like Linux(I Use Arch BTW), programming and PCB designing. 
 
 
-By day, I’m a student in Chulin High school.
+By day, I’m a student , yep i don’t know how to introduce myself TBH.
 
 
 ## What to Expect
