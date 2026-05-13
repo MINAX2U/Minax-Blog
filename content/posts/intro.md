@@ -1,7 +1,7 @@
 ---
 title: "Who am I?"
 description: "The introduction post of my blog."
-thumbnail: "/images/posts/25e76f9c-a09c-4026-b647-d1703b323f28.jpeg"
+thumbnail: "/images/posts/01931a32-f31c-47b7-a2b0-10750520ddab.jpeg"
 date: "2025-06-19"
 tags: ["Intro"]
 ---
