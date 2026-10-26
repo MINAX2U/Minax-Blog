@@ -1,7 +1,7 @@
 ---
 title: "Dual booting Windows and Arch time zone problem "
 description: "Dealing with dual booting problem"
-thumbnail: "/images/posts/bf6ffe47-e315-43af-b9f0-5eaf85935f91.png"
+thumbnail: "/images/posts/5fc9ea76-5442-44a1-b0f8-4facc732d8c4.png"
 date: "2025-06-27"
 tags: ["Linux","Life"]
 ---
